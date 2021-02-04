@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_brief_briefs",
+  "info": {
+    "name": "brief",
+    "icon": "binoculars"
+  },
+  "options": {},
+  "attributes": {
+    "breifPoint": {
+      "type": "string"
+    }
+  }
+}

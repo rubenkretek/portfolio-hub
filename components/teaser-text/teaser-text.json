@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_teaser_text_teaser_texts",
+  "info": {
+    "name": "teaserText",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "teaserPoint": {
+      "type": "string"
+    }
+  }
+}

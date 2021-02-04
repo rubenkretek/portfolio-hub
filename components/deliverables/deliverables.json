@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_deliverables_deliverables",
+  "info": {
+    "name": "deliverables",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "deliverablesPoint": {
+      "type": "string"
+    }
+  }
+}

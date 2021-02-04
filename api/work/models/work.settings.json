@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "name": "Work",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "projectName": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "teaserText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teaser-text.teaser-text",
+      "max": 3
+    },
+    "slug": {
+      "type": "string"
+    },
+    "whoAre": {
+      "type": "string"
+    },
+    "brief": {
+      "type": "component",
+      "repeatable": true,
+      "component": "brief.brief",
+      "max": 3
+    },
+    "deliverables": {
+      "type": "component",
+      "repeatable": true,
+      "component": "deliverables.deliverables",
+      "max": 3
+    },
+    "carouselTitle": {
+      "type": "string"
+    },
+    "carouselSubtitle": {
+      "type": "string"
+    },
+    "carouselText": {
+      "type": "string"
+    },
+    "carouselBackground": {
+      "type": "string",
+      "default": "#"
+    },
+    "carouselImages": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "contentTitle": {
+      "type": "string"
+    },
+    "contentModules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-modules.content-modules"
+    }
+  }
+}

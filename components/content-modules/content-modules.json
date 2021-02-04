@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_content_modules_content_modules",
+  "info": {
+    "name": "contentModules",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "contentImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "contentImgAltText": {
+      "type": "string"
+    },
+    "contentSubtitle": {
+      "type": "string"
+    },
+    "contentText": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkText": {
+      "type": "string"
+    }
+  }
+}
