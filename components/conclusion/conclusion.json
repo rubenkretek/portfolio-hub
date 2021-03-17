@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_conclusion_conclusions",
+  "info": {
+    "name": "conclusion",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkText": {
+      "type": "string"
+    }
+  }
+}

@@ -2,11 +2,12 @@
   "collectionName": "components_brief_briefs",
   "info": {
     "name": "brief",
-    "icon": "binoculars"
+    "icon": "binoculars",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "breifPoint": {
+    "briefPoint": {
       "type": "string"
     }
   }
